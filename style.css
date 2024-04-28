@@ -252,3 +252,37 @@ footer {
     width: 100%;
     text-align: center; /* Centers the footer text */
 }
+
+
+.content-container {
+    text-align: center;
+    color: cadetblue;
+    margin-top: 400px;
+}
+
+.centered-image {
+    width: 300px; /* or your preferred width */
+    height: 200px; /* or your preferred height */
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    width: 300px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form input[type="submit"] {
+    margin: 10px 0;
+}
+
+.about-me-text {
+    text-align: center;
+    margin-top: 20px;
+}
