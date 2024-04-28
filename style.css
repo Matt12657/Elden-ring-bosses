@@ -242,6 +242,13 @@ footer {
 .video-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust the height as needed */
+    margin-bottom: 300px;/* Adds vertical spacing around the video; adjust as needed */
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Centers the footer text */
 }
