@@ -238,3 +238,17 @@ footer {
 .radagon-list li {
     margin-bottom: 0.5rem; /* Add some spacing between list items */
 }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;/* Adds vertical spacing around the video; adjust as needed */
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Centers the footer text */
+}
